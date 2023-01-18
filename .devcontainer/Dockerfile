@@ -16,7 +16,7 @@ RUN su node -c "source /usr/local/share/nvm/nvm.sh && nvm install ${EXTRA_NODE_V
 ENV VNC_RESOLUTION="1920x1200x16"
 
 # Install pnpM
-RUN su node -c "curl -fsSL https://get.pnpm.io/install.sh | sh -"
+// RUN su node -c "curl -fsSL https://get.pnpm.io/install.sh | sh -"
 
 # Install flyctl
 RUN su node -c "curl -fsSL https://fly.io/install.sh | sh -"
