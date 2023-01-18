@@ -29,6 +29,7 @@ const MessageView = () => {
   return (
     <>
       <h1>Messages</h1>
+      <p>Remember to be human. Don&apos;t knowingly hurt others.</p>
       <MessageForm postMessage={handlePostMessage} />
       <MessageList messages={messages} deleteMessage={handleDeleteMessage} />
     </>
